@@ -1,4 +1,6 @@
-# Add ES2015 support through Babel
+# Add TypeScript support 
+
+[ WORK IN PROGRESS ]
 
 Although support for ES2015 (formerly ES6) is improving in modern browsers, the majority do not yet support the full set of features. To benefit from the awesomeness of the new ES2015 syntax while keeping backwards compatibility with Polymer's supported browsers, you'll need to transpile your JS code from ES2015 to ES5
 
@@ -7,7 +9,7 @@ This recipe focuses on adding an ES2015 to ES5 transpile step to Polymer Starter
 
 ## Create a transpile gulp task
 
-- Install the gulp Babel, Sourcemap, Crisper plugins and Babel ES2015 preset: `npm install --save-dev gulp-babel gulp-sourcemaps gulp-crisper babel-preset-es2015`
+- Install the gulp Babel, Sourcemap, Crisper plugins and Babel ES2015 preset: `npm install --save-dev gulp-typescript gulp-sourcemaps`
 - Add the following gulp task in the `gulpfile.js` file:
 
 ```patch
